@@ -1,0 +1,7 @@
+n = int(input("введите кол-во элементов  в первом множестве: "))
+set1 = set(map(int, input("введите элементы множества: ").split()))
+m = int(input("Введите кол-во элементов во втором множестве: "))
+set2 = set(map(int, input("Введите элементы второго множества: ").split()))
+otv=set1.union(set2)
+res=sorted(otv)
+print(res)
