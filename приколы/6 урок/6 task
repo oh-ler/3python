@@ -1,0 +1,11 @@
+n = int(input('введите кол-во элементов: '))
+a1 = int(input('введите первый элемент: '))
+d = int(input('введите разницу: '))
+
+
+arr = [0] * n
+
+for i in range(n):
+    arr[i] = a1 + i * d
+
+print(arr)

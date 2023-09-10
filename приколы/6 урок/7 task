@@ -1,0 +1,8 @@
+arr =[ ]
+min_val =input('введите минимум масива ')
+max_val= input('введите максимум массива ')
+indices = []
+for i in range(len(arr)):
+    if min_val <= arr[i] <= max_val:
+        indices.append(i)
+print(indices)
